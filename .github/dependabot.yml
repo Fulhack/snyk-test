@@ -4,6 +4,6 @@ updates:
   directory: "/"
   schedule:
     interval: "daily"
-    time: "16:37"
+    time: "16:50"
     timezone: "Europe/London"
   open-pull-requests-limit: 10

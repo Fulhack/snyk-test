@@ -1,4 +1,4 @@
-FROM centos:7.2.1
+FROM centos:8.3.2011
 MAINTAINER adrianp@stindustries.net
 
 # If you need to use a proxy to get to the internet, build with:

@@ -7,5 +7,5 @@ updates:
     # Check for updates once a week
     schedule:
       interval: "daily"
-      time: "10:30"
+      time: "15:30"
       timezone: "Europe/London"

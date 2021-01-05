@@ -1,8 +1,11 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    ":rebaseStalePrs",
+    ":prHourlyLimitNone",
+    ":dependencyDashboard",
+    ":label(dependency)"
   ],
   "bumpVersion": "patch",
-  "labels": ["dependencies"],
-  ":dependencyDashboard"
+  "labels": ["dependencies"]
 }

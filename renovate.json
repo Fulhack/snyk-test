@@ -4,5 +4,10 @@
   ],
   "major": {
       "enabled": false
-  }
+  },
+  "packageRules": [
+    {
+      "bumpVersion": "patch"
+    }
+  ]
 }

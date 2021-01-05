@@ -2,12 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "major": {
-      "enabled": false
-  },
-  "packageRules": [
-    {
-      "bumpVersion": "patch"
-    }
-  ]
+  "bumpVersion": "patch",
+  "labels": ["dependencies"],
+  ":dependencyDashboard"
 }

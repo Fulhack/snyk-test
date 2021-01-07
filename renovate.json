@@ -8,4 +8,9 @@
   ],
   "bumpVersion": "patch",
   "labels": ["dependencies"]
+  "docker-compose": {
+    "digest": {
+      "enabled": false
+    }
+  }
 }

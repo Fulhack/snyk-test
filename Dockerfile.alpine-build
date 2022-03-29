@@ -1,7 +1,7 @@
 FROM sethvargo/hashicorp-installer:0.1.2 AS installer
 RUN /install-hashicorp-tool "envconsul" "0.7.3"
 
-FROM alpine:2.10
+FROM alpine:3.15.3
 LABEL maintainer="Funding Circle Engineering <engineering+alpine-envconsul@fundingcircle.com>" \
       name="Alpine Linux 2.10 with envconsul and vault entrypoint" \
       version="1.0.0"
